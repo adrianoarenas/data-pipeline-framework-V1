@@ -8,7 +8,7 @@ yes | sudo yum install git
 
 echo "Cloning Repo for DAGs, etc"
 echo "Cloning Repo"
-sudo git clone https://github.com/adrianoarenas/job_search_automation.git /home/ec2-user/data-pipeline-framework-V1
+sudo git clone https://github.com/adrianoarenas/data-pipeline-framework-V1.git /home/ec2-user/data-pipeline-framework-V1
 
 echo "Executing /init_file.sh"
 sudo chmod 777 /home/ec2-user/data-pipeline-framework-V1/init_file.sh
