@@ -16,8 +16,7 @@ cd /home/ec2-user/data-pipeline-framework-V1/
 
 echo "creating folders"
 sudo mkdir -p ./dags ./logs ./plugins
-
-sudo chown ec2-user:ec2-user ./dags
+sudo chown ec2-user:ec2-user ./dags/
 
 echo "creating env var"
 sudo echo -e "AIRFLOW_UID=$(id -u)" > .env
