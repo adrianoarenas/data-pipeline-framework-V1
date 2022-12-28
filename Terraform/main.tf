@@ -59,11 +59,17 @@ resource "aws_security_group" "main" {
   ]
 }
 
+resource "aws_iam_instance_profile" "secretManagerAccess_profile" {
+  name = "secretManagerAccess_profile"
+  role = var.ec2_secretManagerAccess_roleName
+}
+
 resource "aws_instance" "app_server" {
   ami           = "ami-0648ea225c13e0729"
   instance_type = "t2.medium"
   key_name      = var.key_name
   vpc_security_group_ids = [aws_security_group.main.id]
+  iam_instance_profile = "${aws_iam_instance_profile.secretManagerAccess_profile.name}"
   user_data = "${file("setup.sh")}"
   tags = {
     Name = var.ec2_name
