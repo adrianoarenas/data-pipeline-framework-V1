@@ -17,10 +17,6 @@ cd /home/ec2-user/data-pipeline-framework-V1/
 echo "creating folders"
 sudo mkdir -p ./dags/dags ./logs ./plugins
 
-echo "giving ec2-user folder permission to update dags"
-sudo chown ec2-user:ec2-user ./dags/
-sudo chown ec2-user:ec2-user ./dags/dags
-
 echo "creating env var"
 sudo echo -e "AIRFLOW_UID=$(id -u)" > .env
 
@@ -29,3 +25,7 @@ newgrp docker
 
 echo "after setting docker user"
 docker-compose up -d
+
+echo "giving ec2-user folder permission to update dags"
+sudo chown ec2-user:ec2-user ./dags/
+sudo chown ec2-user:ec2-user ./dags/dags
