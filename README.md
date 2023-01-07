@@ -13,6 +13,10 @@ This architecture is not really suitable to scale data projects as the data extr
 ![Architecture Diagram](https://user-images.githubusercontent.com/24966827/211121309-5baf7506-27f9-4e25-a469-1bcc2ef3bb81.png)
 
 
+Steps to deploy:
+1. [Install Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) and set up AWS credentials.
+2. Clone this repo and be on ../Terraform directory.
+
 
 
 **Currently updating this folder**!
