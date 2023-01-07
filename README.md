@@ -11,4 +11,7 @@ This architecture is not really suitable to scale data projects as the data extr
 - Host this framework on a larger EC2 instance which would increase cost.
 
 
-**Currently updating this folder**
+[frameworkv11 drawio](https://user-images.githubusercontent.com/24966827/211121156-6076c46a-257c-466d-88db-16119d26a62e.png)
+
+
+**Currently updating this folder**!
