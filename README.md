@@ -40,6 +40,10 @@ Steps to deploy:
 
 Once all the services are running, you can head up to the datasets repo [datasets-framework-V1](https://github.com/adrianoarenas/datasets-framework-V1) to manage your datasets/pipelines.
 
-<br/><br/><br/>
+<br/><br/>
+
+pending: Add logging
+
+<br/>
 
 **Currently updating this folder**!
