@@ -36,6 +36,10 @@ Steps to deploy:
 5. Setup a Role for EC2 to interact with S3, the secrets of this role should be stored in the AWS Secrets Manager so the modules in this [this](https://github.com/adrianoarenas/datasets-framework-V1) repo when performing the Extraction and the Loading can interact with S3.
 
 
-<br/><br/><br/><br/>
+<br/>
+
+Once all the services are running, you can head up to the datasets repo [datasets-framework-V1](https://github.com/adrianoarenas/datasets-framework-V1) to manage your datasets/pipelines.
+
+<br/><br/><br/>
 
 **Currently updating this folder**!
