@@ -10,8 +10,9 @@ This architecture is not really suitable to scale data projects as the data extr
 - Run the bigger data scripts and transformations in this same instance with the risk of crashing it in case something goes wrong or we run out of memory.
 - Host this framework on a larger EC2 instance which would increase cost.
 
+[image](https://user-images.githubusercontent.com/24966827/211121309-5baf7506-27f9-4e25-a469-1bcc2ef3bb81.png)
 
-![Untitled Diagram](https://user-images.githubusercontent.com/24966827/211121282-4471cf9a-203d-49b2-9d43-a961a1c7bda3.jpg)
+
 
 
 **Currently updating this folder**!
