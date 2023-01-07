@@ -20,11 +20,21 @@ Steps to deploy:
 
 ![terrafomr vars](https://user-images.githubusercontent.com/24966827/211122034-fbcfedc6-da2c-4f12-9e8a-ecbdb7a8417a.png)
 
+  - For the ssh key name, create the key in AWS or make sure you upload/setup your keypair in AWS with the same name set in the *variables.tf* file.
 
-4. 
+4. Execute **Terraform apply**, this will create the following resources:
+  - AWS bucket for your raw/collected files.
+  - Security group with the proper ports to ssh into your EC2 instance and log into the Airflow Web Server.
+  - Create a Role for your EC2 instance to connect to the AWS Secrets Manager.
+  - Launch an EC2 instance that will bootstrap with the following steps:
+    1. Clone this repo
+    2. Execute [init.sh](https://github.com/adrianoarenas/data-pipeline-framework-V1/blob/main/init_file.sh)
+    3. Install Docker and Docker Compose
+    4. Create the folders for the Airflow dags, plugins and logs.
+    5. And change the folder permissions so that Github Actions in [this](https://github.com/adrianoarenas/datasets-framework-V1) repo can add, update or remove dags.
 
 
 
-<br/><br/>
+<br/><br/><br/><br/>
 
 **Currently updating this folder**!
