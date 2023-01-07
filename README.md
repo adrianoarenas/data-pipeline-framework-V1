@@ -33,6 +33,7 @@ Steps to deploy:
     4. Create the folders for the Airflow dags, plugins and logs.
     5. Change the folder permissions so that Github Actions in [this](https://github.com/adrianoarenas/datasets-framework-V1) repo can add, update or remove dags and processing scripts.
 
+5. Setup a Role for EC2 to interact with S3, the secrets of this role should be stored in the AWS Secrets Manager so the modules in this [this](https://github.com/adrianoarenas/datasets-framework-V1) repo when performing the Extraction and the Loading can interact with S3.
 
 
 <br/><br/><br/><br/>
