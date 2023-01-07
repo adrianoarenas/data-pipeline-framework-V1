@@ -31,7 +31,7 @@ Steps to deploy:
     2. Execute [init.sh](https://github.com/adrianoarenas/data-pipeline-framework-V1/blob/main/init_file.sh)
     3. Install Docker and Docker Compose
     4. Create the folders for the Airflow dags, plugins and logs.
-    5. And change the folder permissions so that Github Actions in [this](https://github.com/adrianoarenas/datasets-framework-V1) repo can add, update or remove dags.
+    5. Change the folder permissions so that Github Actions in [this](https://github.com/adrianoarenas/datasets-framework-V1) repo can add, update or remove dags and processing scripts.
 
 
 
