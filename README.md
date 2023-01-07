@@ -15,7 +15,13 @@ This architecture is not really suitable to scale data projects as the data extr
 
 Steps to deploy:
 1. [Install Terraform](https://developer.hashicorp.com/terraform/tutorials/aws-get-started/install-cli) and set up AWS credentials.
-2. Clone this repo and be on ../Terraform directory.
+2. Clone this repo and cd to *./Terraform directory*.
+3. Create a file called variables.tf - for privacy reasons I've added this file to my *.gitignore*.  It should look like this:
+
+![terrafomr vars](https://user-images.githubusercontent.com/24966827/211122034-fbcfedc6-da2c-4f12-9e8a-ecbdb7a8417a.png)
+
+
+4. 
 
 
 
