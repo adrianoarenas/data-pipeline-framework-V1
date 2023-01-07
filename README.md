@@ -2,7 +2,7 @@
 In this repo we are building a simple ELT framework suitable for small datasets.
 
 This framework is composed by:
-- A lightweight version of **Airflow** for scheduling.
+- A slighty lighter version of **Airflow** for scheduling [(Referenced from the Data Talks Data Engineering Zoomcamp)](https://github.com/DataTalksClub/data-engineering-zoomcamp/tree/main/week_2_data_ingestion).
 - **AWS S3** to load the raw files collected.
 - **PostgreSQL** database to load data, perform transformations and data warehouse.
 
