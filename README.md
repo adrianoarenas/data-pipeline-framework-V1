@@ -31,9 +31,9 @@ Steps to deploy:
     2. Execute [init.sh](https://github.com/adrianoarenas/data-pipeline-framework-V1/blob/main/init_file.sh)
     3. Install Docker and Docker Compose
     4. Create the folders for the Airflow dags, plugins and logs.
-    5. Change the folder permissions so that Github Actions in [this](https://github.com/adrianoarenas/datasets-framework-V1) repo can add, update or remove dags and processing scripts.
+    5. Change the folder permissions so that Github Actions in the [datasets-framework-V1](https://github.com/adrianoarenas/datasets-framework-V1)  repo can add, update or remove dags and processing scripts.
 
-5. Setup a Role for EC2 to interact with S3, the secrets of this role should be stored in the AWS Secrets Manager so the modules in this [this](https://github.com/adrianoarenas/datasets-framework-V1) repo when performing the Extraction and the Loading can interact with S3.
+5. Setup a Role for EC2 to interact with S3, the secrets of this role should be stored in the AWS Secrets Manager so the modules in the [datasets-framework-V1](https://github.com/adrianoarenas/datasets-framework-V1) repo, when performing the Extraction and the Loading, can interact with S3.
 
 
 <br/>
